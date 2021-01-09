@@ -15,6 +15,7 @@ public class 두_개_뽑아서_더하기 {
 
     public static Integer[] solution(int[] numbers) {
         HashSet<Integer> set = new HashSet<>();
+        //hashset의 중복된 수가 안들어가는 것을 이용
 
         for(int i=0;i<numbers.length-1;i++){
             for(int j=i+1;j< numbers.length;j++){
@@ -24,6 +25,7 @@ public class 두_개_뽑아서_더하기 {
 
         Integer[] answer=new Integer[set.size()];
         set.toArray(answer);
+        // 혹은 set에서 숫자를 꺼내서 하나씩 바꾸는 방법도 있음
 
         Arrays.sort(answer);
 
