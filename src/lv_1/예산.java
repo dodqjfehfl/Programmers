@@ -32,3 +32,5 @@ public class 예산 {
         combi(d, budget, idx + 1, sum, sel);
     }
 }
+
+// 단순 조합 -> 시간 초과
