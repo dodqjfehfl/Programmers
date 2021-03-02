@@ -1,5 +1,7 @@
 package lv_1;
 
+import java.util.Arrays;
+
 public class 예산 {
     public static void main(String[] args) {
         int[] arr1 = { 1, 3, 2, 5, 4 };
@@ -10,27 +12,20 @@ public class 예산 {
         // 4
     }
 
-    static int answer;
-
     public static int solution(int[] d, int budget) {
-        answer = Integer.MIN_VALUE;
+        int answer = 0;
 
-        combi(d, budget, 0, 0, 0);
+        Arrays.sort(d);
+        for (int i = 0; i < d.length; i++) {
+            if (d[i] <= budget) {
+                answer++;
+                budget -= d[i];
+            }
+        }
 
         return answer;
-    }
-
-    private static void combi(int[] d, int budget, int idx, int sum, int sel) {
-        if (d.length == idx) {
-            answer = Integer.max(answer, sel);
-            return;
-        }
-
-        if (sum + d[idx] <= budget) {
-            combi(d, budget, idx + 1, sum + d[idx], sel + 1);
-        }
-        combi(d, budget, idx + 1, sum, sel);
     }
 }
 
 // 단순 조합 -> 시간 초과
+// 정렬->하나씩 빼기
