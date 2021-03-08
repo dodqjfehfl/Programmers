@@ -3,6 +3,12 @@ package lv_2;
 import java.util.*;
 
 public class 수식_최대화 {
+	public static void main(String[] args) {
+		System.out.println(solution("100-200*300-500+20"));
+		// 60420
+		System.out.println(solution("50*6-3*2"));
+		// 300
+	}
 
 	static char[] prior = { '+', '-', '*' };
 	static boolean[] check = new boolean[3];
@@ -25,7 +31,7 @@ public class 수식_최대화 {
 		}
 		nums.add(Long.parseLong(num));
 
-		dfs(0, new char[3]);
+		combi(0, new char[3]);
 		return answer;
 	}
 
@@ -45,7 +51,7 @@ public class 수식_최대화 {
 		return num;
 	}
 
-	public static void dfs(int count, char[] p) {
+	public static void combi(int count, char[] p) {
 		if (count == 3) {
 			// 원본 ArrayList 를 복사해준다.
 			ArrayList<Long> cNums = new ArrayList<>(nums);
@@ -75,7 +81,7 @@ public class 수식_최대화 {
 			if (!check[i]) {
 				check[i] = true;
 				p[count] = prior[i];
-				dfs(count + 1, p);
+				combi(count + 1, p);
 				check[i] = false;
 			}
 		}

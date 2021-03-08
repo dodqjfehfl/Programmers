@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch JadenCase_문자열_만들기",
+            "request": "launch",
+            "mainClass": "lv_2.JadenCase_문자열_만들기",
+            "projectName": "Programmers_938c19a5"
+        },
+        {
+            "type": "java",
             "name": "Launch 이상한_문자_만들기",
             "request": "launch",
             "mainClass": "lv_1.이상한_문자_만들기",
