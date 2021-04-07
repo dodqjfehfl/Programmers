@@ -24,24 +24,10 @@ solve_Programmers
 |   1   |                       [:exclamation:풀이](https://github.com/dodqjfehfl/Programmers/blob/main/src/lv_1/%EC%83%81%EC%9C%84_n%EA%B0%9C_%EB%A0%88%EC%BD%94%EB%93%9C.sql)                        |      [상위 n개 레코드](https://programmers.co.kr/learn/courses/30/lessons/59405)      |                                                                                                        LIMIT 몇개                                                                                                        |
 |   1   |                        [:exclamation:풀이](https://github.com/dodqjfehfl/Programmers/blob/main/src/lv_1/%EB%8F%99%EB%AC%BC_%EC%88%98_%EA%B5%AC%ED%95%98%EA%B8%B0.sql)                        |      [동물 수 구하기](https://programmers.co.kr/learn/courses/30/lessons/59406)       |                                                                                                          count                                                                                                           |
 |   1   |                        [:exclamation:풀이](https://github.com/dodqjfehfl/Programmers/blob/main/src/lv_1/%EB%8F%99%EB%AC%BC_%EC%88%98_%EA%B5%AC%ED%95%98%EA%B8%B0.sql)                        |      [최댓값 구하기](https://programmers.co.kr/learn/courses/30/lessons/59415)       |                                                                                                          MAX 이용                                                                                                          |
-11
-
 |   1   |                                 [:exclamation:풀이](https://github.com/dodqjfehfl/Programmers/blob/main/src/lv_1/%EC%8B%9C%EC%A0%80_%EC%95%94%ED%98%B8.java)                                 |         [시저 암호](https://programmers.co.kr/learn/courses/30/lessons/12926)         |                                                      A, a를 기준으로 하여 얼마나 떨어져있는지 확인 n을 더하고 나가는 경우를 생각하여 모듈러 연산 후 기준에서 더하기                                                      |
-
-12
-
 |   1   |                            [:exclamation:풀이](https://github.com/dodqjfehfl/Programmers/blob/main/src/lv_1/%EC%86%8C%EC%88%98_%EB%A7%8C%EB%93%A4%EA%B8%B0.java)                             |        [소수 만들기](https://programmers.co.kr/learn/courses/30/lessons/12977)        |                                                                     dfs를 이용하여 3수의 합을 찾고 소수 판별(만약에 더해서 같은 값 나오면 구분 못함)                                                                     |
-
-13
-
 |   1   |                   [:exclamation:풀이](https://github.com/dodqjfehfl/Programmers/blob/main/src/lv_1/%EC%A7%81%EC%82%AC%EA%B0%81%ED%98%95_%EB%B3%84%EC%B0%8D%EA%B8%B0.java)                    |      [직사각형 별찍기](https://programmers.co.kr/learn/courses/30/lessons/12969)      |                                                                                                       그냥 별 찍기                                                                                                       |
-
-14
-
 |   1   |                                 [:exclamation:풀이](https://github.com/dodqjfehfl/Programmers/blob/main/src/lv_1/%EB%B9%84%EB%B0%80%EC%A7%80%EB%8F%84.java)                                  |         [비밀지도](https://programmers.co.kr/learn/courses/30/lessons/17681)          |                                                                                       bit 연산으로 비트값을 뽑아내고 문자열로 치환                                                                                       |
-
-15
-
 |   1   |                                 [:exclamation:풀이](https://github.com/dodqjfehfl/Programmers/blob/main/src/lv_1/%EB%8B%A4%ED%8A%B8%EA%B2%8C%EC%9E%84.java)                                  |         [다트 게임](https://programmers.co.kr/learn/courses/30/lessons/17682)         |                                                                                                     문제에 따라 계산                                                                                                     |
 
 16
